@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-import sys
-
-print('%(num)s Battery street' % {"num": 98})
+number = 98
+print('{} Battery street'.format(number))

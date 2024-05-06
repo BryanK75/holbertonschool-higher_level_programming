@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-import sys
-
-print('Float: {:.2f}'.format(3.14523))
+number = 3.14159
+print('Float: {:.2f}'.format(number))
