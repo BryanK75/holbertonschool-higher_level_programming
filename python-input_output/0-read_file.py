@@ -1,13 +1,17 @@
 #!/usr/bin/python3
 """
-    File function for read_file().
+File function for read_file().
 """
-
 
 def read_file(filename=""):
     """
-        Reads a file and prints it
-        filename : file to open
+    Reads a file and prints its contents to stdout.
+
+    Args:
+        filename (str): The name of the file to open and read. Default is an empty string.
     """
-    with open('my_file_0.txt', encoding="utf-8") as file:
-        print(f"{file.read()}", end="")
+    with open(filename, "r", encoding="utf-8") as file:
+        print(file.read(), end="")
+
+# Example usage:
+# read_file("example.txt")
