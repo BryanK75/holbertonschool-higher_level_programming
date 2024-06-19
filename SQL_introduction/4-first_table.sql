@@ -1,6 +1,5 @@
 -- script to create a table in mysql
-use mysql;
-create table if not exists first_table (
-	-> id INT,
-	-> name VARCHAR(256)
+CREATE TABLE IF NOT EXISTS first_table (
+	-> ID INT,
+	-> NAME VARCHAR(256)
 	-> );
