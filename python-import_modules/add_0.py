@@ -9,4 +9,8 @@ def add(a, b):
     Returns:
         The return value. a + b
     """
+<<<<<<< HEAD
     return (a + b)
+=======
+    return (a + b)
+>>>>>>> refs/remotes/origin/main
