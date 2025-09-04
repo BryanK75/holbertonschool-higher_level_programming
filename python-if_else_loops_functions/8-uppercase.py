@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 def uppercase(str):
+    if str == "":
+        print("Empty string")
+        return
     for c in str:
-        # if c is lowercase, convert to uppercase; else leave as is
         print("{}".format(chr(ord(c) - 32) if 'a' <= c <= 'z' else c), end="")
-    print()  # new line at the end
+    print()
