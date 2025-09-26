@@ -1,7 +1,10 @@
 #!/usr/bin/python3
+"""Module 1-my_list: MyList class"""
+
+
 class MyList(list):
-    """A list subclass with a method to print a sorted version of the list."""
+    """List subclass with print_sorted method"""
 
     def print_sorted(self):
-        """Prints the list sorted in ascending order."""
+        """Print the list in ascending order"""
         print(sorted(self))
